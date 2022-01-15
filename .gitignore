@@ -131,3 +131,7 @@ dmypy.json
 # BEM: result files, emacs backups
 .geojson
 *~
+GEOJSONS/
+TRMM_3HOUR/
+*.nc4
+
