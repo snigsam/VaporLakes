@@ -3,7 +3,9 @@
 
 #Backward time loop to track coast-crossing vapor lakes (CCVLs) using Geopandas methods from Geopandas_overlaps.ipynb, filename=tag format is `yyyymmddhh.meanlat.55` where meanlat is the mean latitude of the overlap with a coastline and 55 is the contour level. Some key strings: "dest" means "destined to happen", that is the prior timestep in a backward loop. "now" means the present time in that loop. "gdf_" leads off GeoDataFrames. "CCVL" is a coast-crossing vapor lake, the high-level (across-time) entity we are tracking here. 
 
-!date
+# this seemed to work: 
+# conda create --name geopy --channel conda-forge xarray netcdf4 dask matplotlib geopandas 
+# default channel geopandas was different and failed 
 
 # Key parameters up top 
 
