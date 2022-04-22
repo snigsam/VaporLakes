@@ -1,0 +1,1 @@
+cat subset_GPM_3IMERGHH_06_20210615_233732.txt | tr -d '\r' | xargs -n 1 curl -LJO -n -c ~/.urs_cookies -b ~/.urs_cookies
