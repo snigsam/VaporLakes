@@ -6,3 +6,6 @@ Next, for each lake, gather gridded data in "buffer" shapefiles, defined by dist
 I don't think I have to go all the way to OSGEO packages to define a "mask" for the array, as exampled here https://gis.stackexchange.com/questions/354782/masking-netcdf-time-series-data-from-shapefile-using-python/354798#354798
 
 
+Environment package requirements: geopandas, xarray, ... 
+geoviews for easy nice plotting capabilities (holoviews with coastline=True) 
+
