@@ -1,0 +1,15 @@
+name: geo_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fiona
+  - geopandas
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
+  - shapely
+  - xarray
+prefix: /anaconda3/envs/geo_env
+
