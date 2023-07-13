@@ -1,7 +1,14 @@
+# Usage: python homogenize_WRF_QVAPOR_clearair.py filename
+
 # The name homogenize_WRF_QVAPOR_clearair says it all I hope
 # clearair is defined by ds.QCLOUD[0,ilev,:,:] <1e-7
 # WRF seems to have actual QCLOUD zeros, but 1e-7 kg/kg is safe 
-# Usage: python homogenize_WRF_QVAPOR_clearair.py filename
+
+# On Pegasus, these modules need to be loaded in first 
+# module load py-pip
+# pip install scipy
+# module load python
+
 
 import sys
 import xarray as xr
